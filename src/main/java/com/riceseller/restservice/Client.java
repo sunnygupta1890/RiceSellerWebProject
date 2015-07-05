@@ -14,7 +14,6 @@ import org.apache.http.util.EntityUtils;
 public class Client {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         
 		HttpClient client = new DefaultHttpClient();
 		HttpConnectionParams.setConnectionTimeout(client.getParams(), 15000); // Timeout
